@@ -1,0 +1,41 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven / Gradle (in case used later)
+target/
+build/
+
+# Tomcat and local server folders (do NOT commit!)
+tomcat/
+apache-tomcat*/
+webapps/
+work/
+temp/
+logs/
+conf/
+bin/
+lib/
+manager/
+host-manager/
+examples/
+
+# Application logs
+*.log
+*.txt
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+
+# Node / Frontend tools (optional future)
+node_modules/
+
+# Docker
+*.pid
+docker-compose.override.yml
